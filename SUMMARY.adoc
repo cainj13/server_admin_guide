@@ -33,6 +33,9 @@
 .. link:topics/sso-protocols/oidc.adoc[OpenID Connect]
 .. link:topics/sso-protocols/saml.adoc[SAML]
 .. link:topics/sso-protocols/saml-vs-oidc.adoc[OIDC vs. SAML]
+{% if book.community %}
+.. link:topics/sso-protocols/docker.adoc[Docker]
+{% endif %}
 . link:topics/clients.adoc[Managing Clients]
 .. link:topics/clients/client-oidc.adoc[OIDC Clients]
 ... link:topics/clients/oidc/confidential.adoc[Confidential Client Credentials]
